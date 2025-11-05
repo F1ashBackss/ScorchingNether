@@ -1,0 +1,9 @@
+plugin-enabled: true
+visual:
+  visual-fire-enabled: true
+  action-bar-enabled: true
+  action-bar-text: §cВ незере ещё слишком горячо
+damage:
+  damage-enabled: true
+  damage-interval: 60
+  damage-value: 2

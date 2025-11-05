@@ -1,0 +1,17 @@
+name: ScorchingNether
+version: '1.0'
+main: me.f1ashbackss.scorchingNether.ScorchingNether
+api-version: '1.21'
+authors: [ F1ashBackss ]
+description: Allows the admin to enable custom fire damage for players in the Nether.
+license: MIT
+commands:
+  sn:
+    description: Управление ScorchingNether
+    usage: /sn reload | enable | disable
+    permission: scorchingnether.admin
+    permission-message: §cУ вас нет прав для использования этой команды.
+permissions:
+  scorchingnether.admin:
+    description: Доступ к команде /sn
+    default: op
